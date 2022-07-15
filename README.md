@@ -1,0 +1,1 @@
+# Project to better understand DroneCI workflow
