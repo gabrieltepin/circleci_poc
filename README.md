@@ -1,1 +1,1 @@
-# Project to better understand DroneCI workflow
+# Project to better understand CICD workflow
