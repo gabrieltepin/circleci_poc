@@ -1,17 +1,17 @@
 pipeline {
     agent none
     stages {
-        stage('checkout') {
+        stage("checkout") {
             steps {
                 echo '1'
             }
         }
-        stage('test') {
+        stage("test") {
             steps {
                 echo '2'
             }
         }
-        stage('build') {
+        stage("build") {
             steps {
                 echo '3'
             }
