@@ -13,7 +13,9 @@ pipeline {
         }
         stage("build") {
             steps {
-                echo '3'
+                sh '''
+                    echo $PATH
+                '''
             }
         }
         // stage('Select micro services') {
